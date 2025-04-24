@@ -1,0 +1,30 @@
+{
+  "name": "basic-freedom",
+  "version": "0.1.0",
+  "description": "A comprehensive standard library for modern web applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "clean": "lerna run clean",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "webaxp",
+    "library",
+    "utilities",
+    "testing"
+  ],
+  "author": "WebAX Team",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "eslint": "^8.38.0",
+    "lerna": "^6.6.1",
+    "typescript": "^5.0.4"
+  }
+}

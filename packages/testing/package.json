@@ -1,0 +1,25 @@
+{
+  "name": "@basic-freedom/testing",
+  "version": "0.1.0",
+  "description": "Functional, composable, and readable testing framework for WebAXP applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/cli.js"
+  },
+  "keywords": [
+    "testing",
+    "webaxp",
+    "functional",
+    "composable"
+  ],
+  "author": "WebAX Team",
+  "license": "MIT",
+  "dependencies": {
+    "@basic-freedom/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
